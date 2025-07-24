@@ -1,0 +1,705 @@
+__fbufsize (3)       - interfaces to stdio FILE structure
+__flbf (3)           - interfaces to stdio FILE structure
+__fpending (3)       - interfaces to stdio FILE structure
+__freadable (3)      - interfaces to stdio FILE structure
+__freading (3)       - interfaces to stdio FILE structure
+__fsetlocking (3)    - interfaces to stdio FILE structure
+__fwritable (3)      - interfaces to stdio FILE structure
+__fwriting (3)       - interfaces to stdio FILE structure
+__gnu_cxx::condition_base (3) - Base struct for condition policy.
+__gnu_parallel::_EqualFromLess (3) - Constructs predicate for equality from strict weak ordering predicate.
+__gnu_pbds (3)       - GNU extensions for policy-based data structures for public use.
+__gnu_pbds::basic_branch_tag (3) - Basic branch structure.
+__gnu_pbds::basic_hash_tag (3) - Basic hash structure.
+__gnu_pbds::container_tag (3) - Base data structure tag.
+__gnu_pbds::detail::branch_policy (3) - Primary template, base class for branch structure policies.
+__gnu_pbds::detail::ov_tree_map_cond_dtor (3) - Conditional destructor.
+__gnu_pbds::tree_tag (3) - Basic tree structure.
+__gnu_pbds::trie_tag (3) - Basic trie structure.
+_flushlbf (3)        - interfaces to stdio FILE structure
+aa_setsupported (3)  - alter the "supported" field of hardware_params structure used by AA-lib
+ares_free_hostent (3) - Free host structure allocated by ares functions
+ares_freeaddrinfo (3) - Free addrinfo structure allocated by ares functions
+asn1_delete_structure (3) - API function
+asn1_delete_structure2 (3) - API function
+asn1_find_structure_from_oid (3) - API function
+ASN1_item_d2i (3ssl) - decode and encode DER-encoded ASN.1 structures
+ASN1_item_d2i_bio (3ssl) - decode and encode DER-encoded ASN.1 structures
+ASN1_item_d2i_bio_ex (3ssl) - decode and encode DER-encoded ASN.1 structures
+ASN1_item_d2i_ex (3ssl) - decode and encode DER-encoded ASN.1 structures
+ASN1_item_d2i_fp (3ssl) - decode and encode DER-encoded ASN.1 structures
+ASN1_item_d2i_fp_ex (3ssl) - decode and encode DER-encoded ASN.1 structures
+ASN1_ITEM_get (3ssl) - lookup ASN.1 structures
+ASN1_item_i2d_mem_bio (3ssl) - decode and encode DER-encoded ASN.1 structures
+ASN1_ITEM_lookup (3ssl) - lookup ASN.1 structures
+ASN1_item_pack (3ssl) - decode and encode DER-encoded ASN.1 structures
+ASN1_item_unpack (3ssl) - decode and encode DER-encoded ASN.1 structures
+ASN1_item_unpack_ex (3ssl) - decode and encode DER-encoded ASN.1 structures
+asn1_print_structure (3) - API function
+autopoint (1)        - copies standard gettext infrastructure
+BIO_get_rpoll_descriptor (3ssl) - obtain a structure which can be used to determine when a BIO object can nex...
+BIO_get_wpoll_descriptor (3ssl) - obtain a structure which can be used to determine when a BIO object can nex...
+BN_CTX_free (3ssl)   - allocate and free BN_CTX structures
+BN_CTX_new (3ssl)    - allocate and free BN_CTX structures
+BN_CTX_new_ex (3ssl) - allocate and free BN_CTX structures
+BN_CTX_secure_new (3ssl) - allocate and free BN_CTX structures
+BN_CTX_secure_new_ex (3ssl) - allocate and free BN_CTX structures
+BUF_MEM_free (3ssl)  - simple character array structure
+BUF_MEM_grow (3ssl)  - simple character array structure
+BUF_MEM_grow_clean (3ssl) - simple character array structure
+BUF_MEM_new (3ssl)   - simple character array structure
+BUF_MEM_new_ex (3ssl) - simple character array structure
+BUF_reverse (3ssl)   - simple character array structure
+cacheflush (2)       - flush contents of instruction and/or data cache
+chem (1)             - embed chemical structure diagrams in groff documents
+Class::Struct (3perl) - declare struct-like datatypes as Perl classes
+CMS_add0_recipient_key (3ssl) - add recipients to a CMS enveloped data structure
+CMS_add1_recipient (3ssl) - add recipients to a CMS enveloped data structure
+CMS_add1_recipient_cert (3ssl) - add recipients to a CMS enveloped data structure
+CMS_add1_signer (3ssl) - add a signer to a CMS_ContentInfo signed data structure
+CMS_compress (3ssl)  - create a CMS CompressedData structure
+CMS_decrypt (3ssl)   - decrypt content from a CMS envelopedData structure
+CMS_decrypt_set1_password (3ssl) - decrypt content from a CMS envelopedData structure
+CMS_decrypt_set1_pkey (3ssl) - decrypt content from a CMS envelopedData structure
+CMS_decrypt_set1_pkey_and_peer (3ssl) - decrypt content from a CMS envelopedData structure
+CMS_encrypt (3ssl)   - create a CMS envelopedData structure
+CMS_encrypt_ex (3ssl) - create a CMS envelopedData structure
+CMS_final (3ssl)     - finalise a CMS_ContentInfo structure
+CMS_final_digest (3ssl) - finalise a CMS_ContentInfo structure
+CMS_get0_signers (3ssl) - verify a CMS SignedData structure
+CMS_sign (3ssl)      - create a CMS SignedData structure
+CMS_sign_ex (3ssl)   - create a CMS SignedData structure
+CMS_SignedData_verify (3ssl) - verify a CMS SignedData structure
+CMS_SignerInfo_sign (3ssl) - add a signer to a CMS_ContentInfo signed data structure
+CMS_uncompress (3ssl) - uncompress a CMS CompressedData structure
+CMS_verify (3ssl)    - verify a CMS SignedData structure
+compare (1)          - mathematically and visually annotate the difference between an image and its reconstru...
+Config::Perl::V (3perl) - Structured data retrieval of perl -V output
+CPAN::Meta::Converter (3perl) - Convert CPAN distribution metadata structures
+CPAN::Meta::Validator (3perl) - validate CPAN distribution metadata structures
+curl_mime_addpart (3) - append a new empty part to a mime structure
+curl_mime_free (3)   - free a previously built mime structure
+CURLOPT_MIMEPOST (3) - send data from mime structure
+d2i_AutoPrivateKey (3ssl) - decode and encode functions for reading and saving EVP_PKEY structures
+d2i_AutoPrivateKey_ex (3ssl) - decode and encode functions for reading and saving EVP_PKEY structures
+d2i_KeyParams (3ssl) - decode and encode functions for reading and saving EVP_PKEY structures
+d2i_KeyParams_bio (3ssl) - decode and encode functions for reading and saving EVP_PKEY structures
+d2i_PrivateKey (3ssl) - decode and encode functions for reading and saving EVP_PKEY structures
+d2i_PrivateKey_bio (3ssl) - decode and encode functions for reading and saving EVP_PKEY structures
+d2i_PrivateKey_ex (3ssl) - decode and encode functions for reading and saving EVP_PKEY structures
+d2i_PrivateKey_ex_bio (3ssl) - decode and encode functions for reading and saving EVP_PKEY structures
+d2i_PrivateKey_ex_fp (3ssl) - decode and encode functions for reading and saving EVP_PKEY structures
+d2i_PrivateKey_fp (3ssl) - decode and encode functions for reading and saving EVP_PKEY structures
+d2i_PublicKey (3ssl) - decode and encode functions for reading and saving EVP_PKEY structures
+Data::Dumper (3perl) - stringified perl data structures, suitable for both printing and "eval"
+djvudump (1)         - Display internal structure of DjVu files.
+DSA_dup_DH (3ssl)    - create a DH structure out of DSA structure
+EC_KEY_get_enc_flags (3ssl) - Get and set flags for encoding EC_KEY structures
+EC_KEY_set_enc_flags (3ssl) - Get and set flags for encoding EC_KEY structures
+elf32_fsize (3)      - calculate the file size of an ELF data structure
+elf64_fsize (3)      - calculate the file size of an ELF data structure
+Encode::MIME::Header (3perl) - - MIME encoding for an unstructured email header
+eval (1p)            - construct command by concatenating arguments
+event_cb_data_struct (3) - (unknown subject)
+EVP_PKEY_asn1_add0 (3ssl) - manipulating and registering EVP_PKEY_ASN1_METHOD structure
+EVP_PKEY_asn1_add_alias (3ssl) - manipulating and registering EVP_PKEY_ASN1_METHOD structure
+EVP_PKEY_asn1_copy (3ssl) - manipulating and registering EVP_PKEY_ASN1_METHOD structure
+EVP_PKEY_asn1_free (3ssl) - manipulating and registering EVP_PKEY_ASN1_METHOD structure
+EVP_PKEY_ASN1_METHOD (3ssl) - manipulating and registering EVP_PKEY_ASN1_METHOD structure
+EVP_PKEY_asn1_new (3ssl) - manipulating and registering EVP_PKEY_ASN1_METHOD structure
+EVP_PKEY_asn1_set_check (3ssl) - manipulating and registering EVP_PKEY_ASN1_METHOD structure
+EVP_PKEY_asn1_set_ctrl (3ssl) - manipulating and registering EVP_PKEY_ASN1_METHOD structure
+EVP_PKEY_asn1_set_free (3ssl) - manipulating and registering EVP_PKEY_ASN1_METHOD structure
+EVP_PKEY_asn1_set_get_priv_key (3ssl) - manipulating and registering EVP_PKEY_ASN1_METHOD structure
+EVP_PKEY_asn1_set_get_pub_key (3ssl) - manipulating and registering EVP_PKEY_ASN1_METHOD structure
+EVP_PKEY_asn1_set_item (3ssl) - manipulating and registering EVP_PKEY_ASN1_METHOD structure
+EVP_PKEY_asn1_set_param (3ssl) - manipulating and registering EVP_PKEY_ASN1_METHOD structure
+EVP_PKEY_asn1_set_param_check (3ssl) - manipulating and registering EVP_PKEY_ASN1_METHOD structure
+EVP_PKEY_asn1_set_private (3ssl) - manipulating and registering EVP_PKEY_ASN1_METHOD structure
+EVP_PKEY_asn1_set_public (3ssl) - manipulating and registering EVP_PKEY_ASN1_METHOD structure
+EVP_PKEY_asn1_set_public_check (3ssl) - manipulating and registering EVP_PKEY_ASN1_METHOD structure
+EVP_PKEY_asn1_set_security_bits (3ssl) - manipulating and registering EVP_PKEY_ASN1_METHOD structure
+EVP_PKEY_asn1_set_set_priv_key (3ssl) - manipulating and registering EVP_PKEY_ASN1_METHOD structure
+EVP_PKEY_asn1_set_set_pub_key (3ssl) - manipulating and registering EVP_PKEY_ASN1_METHOD structure
+EVP_PKEY_asn1_set_siginf (3ssl) - manipulating and registering EVP_PKEY_ASN1_METHOD structure
+EVP_PKEY_get0_asn1 (3ssl) - manipulating and registering EVP_PKEY_ASN1_METHOD structure
+EVP_PKEY_meth_add0 (3ssl) - manipulating EVP_PKEY_METHOD structure
+EVP_PKEY_meth_copy (3ssl) - manipulating EVP_PKEY_METHOD structure
+EVP_PKEY_meth_find (3ssl) - manipulating EVP_PKEY_METHOD structure
+EVP_PKEY_meth_free (3ssl) - manipulating EVP_PKEY_METHOD structure
+EVP_PKEY_meth_get_check (3ssl) - manipulating EVP_PKEY_METHOD structure
+EVP_PKEY_meth_get_cleanup (3ssl) - manipulating EVP_PKEY_METHOD structure
+EVP_PKEY_meth_get_copy (3ssl) - manipulating EVP_PKEY_METHOD structure
+EVP_PKEY_meth_get_ctrl (3ssl) - manipulating EVP_PKEY_METHOD structure
+EVP_PKEY_meth_get_decrypt (3ssl) - manipulating EVP_PKEY_METHOD structure
+EVP_PKEY_meth_get_derive (3ssl) - manipulating EVP_PKEY_METHOD structure
+EVP_PKEY_meth_get_digest_custom (3ssl) - manipulating EVP_PKEY_METHOD structure
+EVP_PKEY_meth_get_digestsign (3ssl) - manipulating EVP_PKEY_METHOD structure
+EVP_PKEY_meth_get_digestverify (3ssl) - manipulating EVP_PKEY_METHOD structure
+EVP_PKEY_meth_get_encrypt (3ssl) - manipulating EVP_PKEY_METHOD structure
+EVP_PKEY_meth_get_init (3ssl) - manipulating EVP_PKEY_METHOD structure
+EVP_PKEY_meth_get_keygen (3ssl) - manipulating EVP_PKEY_METHOD structure
+EVP_PKEY_meth_get_param_check (3ssl) - manipulating EVP_PKEY_METHOD structure
+EVP_PKEY_meth_get_paramgen (3ssl) - manipulating EVP_PKEY_METHOD structure
+EVP_PKEY_meth_get_public_check (3ssl) - manipulating EVP_PKEY_METHOD structure
+EVP_PKEY_meth_get_sign (3ssl) - manipulating EVP_PKEY_METHOD structure
+EVP_PKEY_meth_get_signctx (3ssl) - manipulating EVP_PKEY_METHOD structure
+EVP_PKEY_meth_get_verify (3ssl) - manipulating EVP_PKEY_METHOD structure
+EVP_PKEY_meth_get_verify_recover (3ssl) - manipulating EVP_PKEY_METHOD structure
+EVP_PKEY_meth_get_verifyctx (3ssl) - manipulating EVP_PKEY_METHOD structure
+EVP_PKEY_meth_new (3ssl) - manipulating EVP_PKEY_METHOD structure
+EVP_PKEY_meth_remove (3ssl) - manipulating EVP_PKEY_METHOD structure
+EVP_PKEY_meth_set_check (3ssl) - manipulating EVP_PKEY_METHOD structure
+EVP_PKEY_meth_set_cleanup (3ssl) - manipulating EVP_PKEY_METHOD structure
+EVP_PKEY_meth_set_copy (3ssl) - manipulating EVP_PKEY_METHOD structure
+EVP_PKEY_meth_set_ctrl (3ssl) - manipulating EVP_PKEY_METHOD structure
+EVP_PKEY_meth_set_decrypt (3ssl) - manipulating EVP_PKEY_METHOD structure
+EVP_PKEY_meth_set_derive (3ssl) - manipulating EVP_PKEY_METHOD structure
+EVP_PKEY_meth_set_digest_custom (3ssl) - manipulating EVP_PKEY_METHOD structure
+EVP_PKEY_meth_set_digestsign (3ssl) - manipulating EVP_PKEY_METHOD structure
+EVP_PKEY_meth_set_digestverify (3ssl) - manipulating EVP_PKEY_METHOD structure
+EVP_PKEY_meth_set_encrypt (3ssl) - manipulating EVP_PKEY_METHOD structure
+EVP_PKEY_meth_set_init (3ssl) - manipulating EVP_PKEY_METHOD structure
+EVP_PKEY_meth_set_keygen (3ssl) - manipulating EVP_PKEY_METHOD structure
+EVP_PKEY_meth_set_param_check (3ssl) - manipulating EVP_PKEY_METHOD structure
+EVP_PKEY_meth_set_paramgen (3ssl) - manipulating EVP_PKEY_METHOD structure
+EVP_PKEY_meth_set_public_check (3ssl) - manipulating EVP_PKEY_METHOD structure
+EVP_PKEY_meth_set_sign (3ssl) - manipulating EVP_PKEY_METHOD structure
+EVP_PKEY_meth_set_signctx (3ssl) - manipulating EVP_PKEY_METHOD structure
+EVP_PKEY_meth_set_verify (3ssl) - manipulating EVP_PKEY_METHOD structure
+EVP_PKEY_meth_set_verify_recover (3ssl) - manipulating EVP_PKEY_METHOD structure
+EVP_PKEY_meth_set_verifyctx (3ssl) - manipulating EVP_PKEY_METHOD structure
+EVP_PKEY_METHOD (3ssl) - manipulating EVP_PKEY_METHOD structure
+FcDirCacheRead (3)   - read or construct a directory cache
+FcMatrixInit (3)     - initialize an FcMatrix structure
+ffi_prep_cif (3)     - Prepare a ffi_cif structure for use with ffi_call
+ffi_prep_cif_var (3) - Prepare a ffi_cif structure for use with ffi_call for variadic functions.
+filemap_struct (3)   - (unknown subject)
+fmtmsg.h (0p)        - message display structures
+getpw (3)            - reconstruct password line entry
+gettextize (1)       - install or upgrade gettext infrastructure
+getutmp (3)          - copy utmp structure to utmpx, and vice versa
+getutmpx (3)         - copy utmp structure to utmpx, and vice versa
+git-interpret-trailers (1) - Add or parse structured information in commit messages
+gprofng-display-html (1) - Generate an HTML based directory structure to browse the profiles
+grp.h (0p)           - group structure
+HWLOC_OBJ_CACHE_INSTRUCTION (3) - Object Types
+hwloc_obj_t (3)      - Object Structure and Attributes
+hwloc_topology_abi_check (3) - Topology Creation and Destruction
+hwloc_topology_check (3) - Topology Creation and Destruction
+hwloc_topology_destroy (3) - Topology Creation and Destruction
+hwloc_topology_dup (3) - Topology Creation and Destruction
+hwloc_topology_init (3) - Topology Creation and Destruction
+hwloc_topology_load (3) - Topology Creation and Destruction
+hwloc_topology_t (3) - Topology Creation and Destruction
+HWLOC_TYPE_FILTER_KEEP_STRUCTURE (3) - Topology Detection Configuration and Query
+hwlocality_creation (3) - Topology Creation and Destruction
+hwlocality_objects (3) - Object Structure and Attributes
+i2d_CMS_bio_stream (3ssl) - output CMS_ContentInfo structure in BER format
+i2d_KeyParams (3ssl) - decode and encode functions for reading and saving EVP_PKEY structures
+i2d_KeyParams_bio (3ssl) - decode and encode functions for reading and saving EVP_PKEY structures
+i2d_PKCS7_bio_stream (3ssl) - output PKCS7 structure in BER format
+i2d_PrivateKey (3ssl) - decode and encode functions for reading and saving EVP_PKEY structures
+i2d_PrivateKey_bio (3ssl) - decode and encode functions for reading and saving EVP_PKEY structures
+i2d_PrivateKey_fp (3ssl) - decode and encode functions for reading and saving EVP_PKEY structures
+i2d_PublicKey (3ssl) - decode and encode functions for reading and saving EVP_PKEY structures
+iovec (3type)        - Vector I/O data structure
+lber-sockbuf (3)     - OpenLDAP LBER I/O infrastructure
+LIBMTP_album_struct (3) - (unknown subject)
+LIBMTP_allowed_values_struct (3) - (unknown subject)
+LIBMTP_device_entry_struct (3) - (unknown subject)
+LIBMTP_device_extension_struct (3) - (unknown subject)
+LIBMTP_devicestorage_struct (3) - (unknown subject)
+LIBMTP_error_struct (3) - (unknown subject)
+LIBMTP_file_struct (3) - (unknown subject)
+LIBMTP_filesampledata_struct (3) - (unknown subject)
+LIBMTP_folder_struct (3) - (unknown subject)
+LIBMTP_mtpdevice_struct (3) - (unknown subject)
+LIBMTP_playlist_struct (3) - (unknown subject)
+LIBMTP_raw_device_struct (3) - (unknown subject)
+LIBMTP_track_struct (3) - (unknown subject)
+llvm-diff (1)        - LLVM structural 'diff'
+llvm-exegesis (1)    - LLVM Machine Instruction Benchmark
+mtpdevice_list_struct (3) - (unknown subject)
+mtpz_rsa_struct (3)  - (unknown subject)
+ne_status (3)        - HTTP status structure
+npm-folders (5)      - Folder Structures Used by npm
+npm-global (5)       - Folder Structures Used by npm
+offsetof (3)         - offset of a structure member
+openssl-crl2pkcs7 (1ssl) - Create a PKCS#7 structure from a CRL and certificates
+OSSL_CMP_certConf_cb (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_certConf_cb_t (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_build_cert_chain (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_free (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_get0_geninfo_ITAVs (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_get0_libctx (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_get0_newCert (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_get0_newPkey (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_get0_propq (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_get0_statusString (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_get0_trusted (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_get0_trustedStore (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_get0_untrusted (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_get0_validatedSrvCert (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_get1_caPubs (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_get1_extraCertsIn (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_get1_newChain (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_get_certConf_cb_arg (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_get_failInfoCode (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_get_http_cb_arg (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_get_option (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_get_status (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_get_transfer_cb_arg (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_new (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_print_errors (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_push0_geninfo_ITAV (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_push0_genm_ITAV (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_push0_policy (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_push1_subjectAltName (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_reinit (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_reqExtensions_have_SAN (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_reset_geninfo_ITAVs (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_set0_newPkey (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_set0_reqExtensions (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_set0_trusted (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_set0_trustedStore (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_set1_cert (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_set1_expected_sender (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_set1_extraCertsOut (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_set1_issuer (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_set1_no_proxy (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_set1_oldCert (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_set1_p10CSR (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_set1_pkey (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_set1_proxy (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_set1_recipient (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_set1_referenceValue (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_set1_secretValue (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_set1_senderNonce (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_set1_serialNumber (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_set1_server (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_set1_serverPath (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_set1_srvCert (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_set1_subjectName (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_set1_transactionID (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_set1_untrusted (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_set_certConf_cb (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_set_certConf_cb_arg (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_set_http_cb (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_set_http_cb_arg (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_set_log_cb (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_set_log_verbosity (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_set_option (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_set_serverPort (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_set_transfer_cb (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_CTX_set_transfer_cb_arg (3ssl) - functions for managing the CMP client context data structure
+OSSL_CMP_transfer_cb_t (3ssl) - functions for managing the CMP client context data structure
+OSSL_CRMF_CERTID_get0_issuer (3ssl) - functions reading from CRMF CertReqMsg structures
+OSSL_CRMF_CERTID_get0_serialNumber (3ssl) - functions reading from CRMF CertReqMsg structures
+OSSL_CRMF_CERTTEMPLATE_fill (3ssl) - functions populating and verifying CRMF CertReqMsg structures
+OSSL_CRMF_CERTTEMPLATE_get0_extensions (3ssl) - functions reading from CRMF CertReqMsg structures
+OSSL_CRMF_CERTTEMPLATE_get0_issuer (3ssl) - functions reading from CRMF CertReqMsg structures
+OSSL_CRMF_CERTTEMPLATE_get0_publicKey (3ssl) - functions reading from CRMF CertReqMsg structures
+OSSL_CRMF_CERTTEMPLATE_get0_serialNumber (3ssl) - functions reading from CRMF CertReqMsg structures
+OSSL_CRMF_CERTTEMPLATE_get0_subject (3ssl) - functions reading from CRMF CertReqMsg structures
+OSSL_CRMF_ENCRYPTEDKEY_get1_encCert (3ssl) - functions reading from CRMF CertReqMsg structures
+OSSL_CRMF_ENCRYPTEDKEY_get1_pkey (3ssl) - functions reading from CRMF CertReqMsg structures
+OSSL_CRMF_ENCRYPTEDKEY_init_envdata (3ssl) - functions reading from CRMF CertReqMsg structures
+OSSL_CRMF_ENCRYPTEDVALUE_decrypt (3ssl) - functions reading from CRMF CertReqMsg structures
+OSSL_CRMF_ENCRYPTEDVALUE_get1_encCert (3ssl) - functions reading from CRMF CertReqMsg structures
+OSSL_CRMF_MSG_centralkeygen_requested (3ssl) - functions reading from CRMF CertReqMsg structures
+OSSL_CRMF_MSG_create_popo (3ssl) - functions populating and verifying CRMF CertReqMsg structures
+OSSL_CRMF_MSG_get0_tmpl (3ssl) - functions reading from CRMF CertReqMsg structures
+OSSL_CRMF_MSG_get_certReqId (3ssl) - functions reading from CRMF CertReqMsg structures
+OSSL_CRMF_MSG_push0_extension (3ssl) - functions populating and verifying CRMF CertReqMsg structures
+OSSL_CRMF_MSG_set0_extensions (3ssl) - functions populating and verifying CRMF CertReqMsg structures
+OSSL_CRMF_MSG_set0_validity (3ssl) - functions populating and verifying CRMF CertReqMsg structures
+OSSL_CRMF_MSG_set_certReqId (3ssl) - functions populating and verifying CRMF CertReqMsg structures
+OSSL_CRMF_MSGS_verify_popo (3ssl) - functions populating and verifying CRMF CertReqMsg structures
+OSSL_DECODER_CONSTRUCT (3ssl) - Decoder context routines
+OSSL_DECODER_CTX_get_construct (3ssl) - Decoder context routines
+OSSL_DECODER_CTX_get_construct_data (3ssl) - Decoder context routines
+OSSL_DECODER_CTX_set_construct (3ssl) - Decoder context routines
+OSSL_DECODER_CTX_set_construct_data (3ssl) - Decoder context routines
+OSSL_DECODER_CTX_set_input_structure (3ssl) - Decoder context routines
+OSSL_DECODER_INSTANCE_get_input_structure (3ssl) - Decoder context routines
+OSSL_ENCODER_CONSTRUCT (3ssl) - Encoder context routines
+OSSL_ENCODER_CTX_set_construct (3ssl) - Encoder context routines
+OSSL_ENCODER_CTX_set_construct_data (3ssl) - Encoder context routines
+OSSL_ENCODER_CTX_set_output_structure (3ssl) - Encoder context routines
+OSSL_ENCODER_INSTANCE_get_output_structure (3ssl) - Encoder context routines
+OSSL_PARAM (3ssl)    - a structure to pass or request object parameters
+OSSL_PARAM_allocate_from_text (3ssl) - OSSL_PARAM construction utilities
+OSSL_PARAM_construct_BN (3ssl) - OSSL_PARAM helpers
+OSSL_PARAM_construct_double (3ssl) - OSSL_PARAM helpers
+OSSL_PARAM_construct_end (3ssl) - OSSL_PARAM helpers
+OSSL_PARAM_construct_int (3ssl) - OSSL_PARAM helpers
+OSSL_PARAM_construct_int32 (3ssl) - OSSL_PARAM helpers
+OSSL_PARAM_construct_int64 (3ssl) - OSSL_PARAM helpers
+OSSL_PARAM_construct_long (3ssl) - OSSL_PARAM helpers
+OSSL_PARAM_construct_octet_ptr (3ssl) - OSSL_PARAM helpers
+OSSL_PARAM_construct_octet_string (3ssl) - OSSL_PARAM helpers
+OSSL_PARAM_construct_size_t (3ssl) - OSSL_PARAM helpers
+OSSL_PARAM_construct_time_t (3ssl) - OSSL_PARAM helpers
+OSSL_PARAM_construct_uint (3ssl) - OSSL_PARAM helpers
+OSSL_PARAM_construct_uint32 (3ssl) - OSSL_PARAM helpers
+OSSL_PARAM_construct_uint64 (3ssl) - OSSL_PARAM helpers
+OSSL_PARAM_construct_ulong (3ssl) - OSSL_PARAM helpers
+OSSL_PARAM_construct_utf8_ptr (3ssl) - OSSL_PARAM helpers
+OSSL_PARAM_construct_utf8_string (3ssl) - OSSL_PARAM helpers
+ostree-admin-switch (1) - Construct new tree from current origin and deploy it, if it changed
+ostree-admin-upgrade (1) - Construct new tree from current origin and deploy it, if it changed
+pahole (1)           - Shows, manipulates data structure layout and pretty prints raw data.
+pam_xauth_data (3)   - structure containing X authentication data
+PBMAC1_get1_pbkdf2_param (3ssl) - Function to manipulate a PBMAC1 MAC structure
+pdfroff (1)          - construct files in Portable Document Format using groff
+PEM_bytes_read_bio (3ssl) - read a PEM-encoded data structure from a BIO
+PEM_bytes_read_bio_secmem (3ssl) - read a PEM-encoded data structure from a BIO
+PEM_write_bio_CMS_stream (3ssl) - output CMS_ContentInfo structure in PEM format
+PEM_write_bio_PKCS7_stream (3ssl) - output PKCS7 structure in PEM format
+PEM_X509_INFO_read (3ssl) - read PEM-encoded data structures into one or more X509_INFO objects
+PEM_X509_INFO_read_bio (3ssl) - read PEM-encoded data structures into one or more X509_INFO objects
+PEM_X509_INFO_read_bio_ex (3ssl) - read PEM-encoded data structures into one or more X509_INFO objects
+PEM_X509_INFO_read_ex (3ssl) - read PEM-encoded data structures into one or more X509_INFO objects
+perldsc (1perl)      - Perl Data Structures Cookbook
+perlmodlib (1perl)   - constructing new Perl modules and finding existing ones
+perlref (1perl)      - Perl references and nested data structures
+PKCS12_add1_attr_by_NID (3ssl) - Add an attribute to a PKCS#12 safeBag structure
+PKCS12_add1_attr_by_txt (3ssl) - Add an attribute to a PKCS#12 safeBag structure
+PKCS12_add_safe (3ssl) - Create and add objects to a PKCS#12 structure
+PKCS12_add_safe_ex (3ssl) - Create and add objects to a PKCS#12 structure
+PKCS12_add_safes (3ssl) - Create and add objects to a PKCS#12 structure
+PKCS12_add_safes_ex (3ssl) - Create and add objects to a PKCS#12 structure
+PKCS12_create (3ssl) - create a PKCS#12 structure
+PKCS12_create_cb (3ssl) - create a PKCS#12 structure
+PKCS12_create_ex (3ssl) - create a PKCS#12 structure
+PKCS12_create_ex2 (3ssl) - create a PKCS#12 structure
+PKCS12_gen_mac (3ssl) - Functions to create and manipulate a PKCS#12 MAC structure
+PKCS12_get0_mac (3ssl) - Functions to create and manipulate a PKCS#12 MAC structure
+PKCS12_init (3ssl)   - Create a new empty PKCS#12 structure
+PKCS12_init_ex (3ssl) - Create a new empty PKCS#12 structure
+PKCS12_newpass (3ssl) - change the password of a PKCS12 structure
+PKCS12_parse (3ssl)  - parse a PKCS#12 structure
+PKCS12_set_mac (3ssl) - Functions to create and manipulate a PKCS#12 MAC structure
+PKCS12_set_pbmac1_pbkdf2 (3ssl) - Functions to create and manipulate a PKCS#12 MAC structure
+PKCS12_setup_mac (3ssl) - Functions to create and manipulate a PKCS#12 MAC structure
+PKCS12_verify_mac (3ssl) - Functions to create and manipulate a PKCS#12 MAC structure
+PKCS7_add_certificate (3ssl) - add information to PKCS7 structure
+PKCS7_add_crl (3ssl) - add information to PKCS7 structure
+PKCS7_decrypt (3ssl) - decrypt content from a PKCS#7 envelopedData structure
+PKCS7_encrypt (3ssl) - create a PKCS#7 envelopedData structure
+PKCS7_encrypt_ex (3ssl) - create a PKCS#7 envelopedData structure
+PKCS7_get0_signers (3ssl) - verify a PKCS#7 signedData structure
+PKCS7_get_octet_string (3ssl) - return octet string from a PKCS#7 envelopedData structure
+PKCS7_sign (3ssl)    - create a PKCS#7 signedData structure
+PKCS7_sign_add_signer (3ssl) - add information to PKCS7 structure
+PKCS7_sign_ex (3ssl) - create a PKCS#7 signedData structure
+PKCS7_type_is_other (3ssl) - determine content type of PKCS#7 envelopedData structure
+PKCS7_verify (3ssl)  - verify a PKCS#7 signedData structure
+PR_RISCV_SET_ICACHE_FLUSH_CTX (2const) - Enable/disable icache flushing instructions in userspace.
+propertymap_struct (3) - (unknown subject)
+pwd.h (0p)           - password structure
+s390_sthyi (2)       - emulate STHYI instruction
+sendmsg (3p)         - send a message on a socket using a message structure
+sigevent (3type)     - structure for notification from asynchronous routines
+sigevent (7)         - structure for notification from asynchronous routines
+sigval (3type)       - structure for notification from asynchronous routines
+SMIME_write_ASN1 (3ssl) - convert structure to S/MIME format
+SMIME_write_ASN1_ex (3ssl) - convert structure to S/MIME format
+SMIME_write_CMS (3ssl) - convert CMS structure to S/MIME format
+SMIME_write_PKCS7 (3ssl) - convert PKCS#7 structure to S/MIME format
+SSL_alloc_buffers (3ssl) - manage SSL structure buffers
+SSL_config (3ssl)    - configure SSL_CTX or SSL structure
+SSL_CTX_config (3ssl) - configure SSL_CTX or SSL structure
+SSL_dup (3ssl)       - create an SSL structure for a connection
+SSL_free (3ssl)      - free an allocated SSL structure
+SSL_free_buffers (3ssl) - manage SSL structure buffers
+SSL_new (3ssl)       - create an SSL structure for a connection
+SSL_SESSION_dup (3ssl) - create, free and manage SSL_SESSION structures
+SSL_SESSION_free (3ssl) - create, free and manage SSL_SESSION structures
+SSL_SESSION_new (3ssl) - create, free and manage SSL_SESSION structures
+SSL_SESSION_up_ref (3ssl) - create, free and manage SSL_SESSION structures
+SSL_up_ref (3ssl)    - create an SSL structure for a connection
+std::has_virtual_destructor (3) - (unknown subject)
+std::is_constructible (3) - (unknown subject)
+std::is_copy_constructible (3) - (unknown subject)
+std::is_default_constructible (3) - (unknown subject)
+std::is_destructible (3) - (unknown subject)
+std::is_move_constructible (3) - (unknown subject)
+std::is_nothrow_constructible (3) - (unknown subject)
+std::is_nothrow_copy_constructible (3) - (unknown subject)
+std::is_nothrow_default_constructible (3) - (unknown subject)
+std::is_nothrow_destructible (3) - (unknown subject)
+std::is_nothrow_move_constructible (3) - (unknown subject)
+std::is_trivially_constructible (3) - (unknown subject)
+std::is_trivially_copy_constructible (3) - (unknown subject)
+std::is_trivially_default_constructible (3) - (unknown subject)
+std::is_trivially_destructible (3) - (unknown subject)
+std::is_trivially_move_constructible (3) - (unknown subject)
+stdio_ext (3)        - interfaces to stdio FILE structure
+Storable (3perl)     - persistence for Perl data structures
+strict (3perl)       - Perl pragma to restrict unsafe constructs
+strptime (3)         - convert a string representation of time to a time tm structure
+structar (3)         - libmtp data structures
+sys_ipc.h (0p)       - XSI interprocess communication access structure
+sys_msg.h (0p)       - XSI message queue structures
+sys_statvfs.h (0p)   - VFS File System information structure
+sys_times.h (0p)     - file access and modification times structure
+sys_utsname.h (0p)   - system name structure
+talloc (3)           - hierarchical reference counted memory pool system with destructors
+Test2::Compare::Delta (3perl) - Representation of differences between nested data structures.
+Test2::Tools::Compare (3perl) - Tools for comparing deep data structures.
+Test2::Workflow (3perl) - A test workflow is a way of structuring tests using composable units.
+text_struct (3)      - (unknown subject)
+threads::shared (3perl) - Perl extension for sharing data structures between threads
+timeradd (3bsd)      - operations on time structure
+timerclear (3bsd)    - operations on time structure
+timercmp (3bsd)      - operations on time structure
+timerisset (3bsd)    - operations on time structure
+timersub (3bsd)      - operations on time structure
+TIMESPEC_TO_TIMEVAL (3) - convert between time structures
+timespecadd (3bsd)   - operations on time structure
+timespecclear (3bsd) - operations on time structure
+timespeccmp (3bsd)   - operations on time structure
+timespecisset (3bsd) - operations on time structure
+timespecsub (3bsd)   - operations on time structure
+TIMEVAL_TO_TIMESPEC (3) - convert between time structures
+TIOCGLCKTRMIOS (2const) - locking the termios structre
+TIOCSLCKTRMIOS (2const) - locking the termios structre
+TIOCTTYGSTRUCT (2const) - kernel debugging
+ts_conf_get (3)      - get a pointer to struct ts_module_conf holding data from the TSLIB_CONFFILE file.
+Tss2_TctiLdr_FreeInfo (3) - Function to free a TSS2_TCTI_INFO structure allocated by Tss2_TctiLdr_Initialize ().
+Tss2_TctiLdr_GetInfo (3) - Query TctiLdr library for the TSS2_TCTI_INFO structure associated with a TCTI libr...
+UI_construct_prompt (3ssl) - user interface
+UI_create_method (3ssl) - user interface method creation and destruction
+UI_destroy_method (3ssl) - user interface method creation and destruction
+UI_METHOD (3ssl)     - user interface method creation and destruction
+UI_method_get_closer (3ssl) - user interface method creation and destruction
+UI_method_get_data_destructor (3ssl) - user interface method creation and destruction
+UI_method_get_data_duplicator (3ssl) - user interface method creation and destruction
+UI_method_get_ex_data (3ssl) - user interface method creation and destruction
+UI_method_get_flusher (3ssl) - user interface method creation and destruction
+UI_method_get_opener (3ssl) - user interface method creation and destruction
+UI_method_get_prompt_constructor (3ssl) - user interface method creation and destruction
+UI_method_get_reader (3ssl) - user interface method creation and destruction
+UI_method_get_writer (3ssl) - user interface method creation and destruction
+UI_method_set_closer (3ssl) - user interface method creation and destruction
+UI_method_set_data_duplicator (3ssl) - user interface method creation and destruction
+UI_method_set_ex_data (3ssl) - user interface method creation and destruction
+UI_method_set_flusher (3ssl) - user interface method creation and destruction
+UI_method_set_opener (3ssl) - user interface method creation and destruction
+UI_method_set_prompt_constructor (3ssl) - user interface method creation and destruction
+UI_method_set_reader (3ssl) - user interface method creation and destruction
+UI_method_set_writer (3ssl) - user interface method creation and destruction
+unibi_dummy (3)      - construct a dummy terminal object
+unibi_from_mem (3)   - construct a terminal object from a compiled terminfo entry
+unw_get_elf_filename_by_ip (3) - - get backing elf filename by instruction pointer
+utime.h (0p)         - access and modification times structure
+vpddecode (8)        - VPD structure decoder
+webpinfo (1)         - print out the chunk level structure of WebP files along with basic integrity checks.
+X509_ACERT_get_attr (3ssl) - Retrieve attributes from an X509_ACERT structure
+X509_ACERT_get_attr_by_NID (3ssl) - Retrieve attributes from an X509_ACERT structure
+X509_ACERT_get_attr_by_OBJ (3ssl) - Retrieve attributes from an X509_ACERT structure
+X509_ACERT_get_attr_count (3ssl) - Retrieve attributes from an X509_ACERT structure
+XAddHost (3)         - control host access and host control structure
+XAddHosts (3)        - control host access and host control structure
+XAllocClassHint (3)  - allocate class hints structure and set or read a window's WM_CLASS property
+XAllocIconSize (3)   - allocate icon size structure and set or read a window's WM_ICON_SIZES property
+XAllocSizeHints (3)  - allocate size hints structure and set or read a window's WM_NORMAL_HINTS property
+XAllocStandardColormap (3) - allocate, set, or read a standard colormap structure
+XAllocWMHints (3)    - allocate window manager hints structure and set or read a window's WM_HINTS property
+XAnyEvent (3)        - generic X event structures
+XArc (3)             - draw arcs and arc structure
+xargs (1p)           - construct argument lists and invoke utility
+XAutoRepeatOff (3)   - manipulate keyboard settings and keyboard control structure
+XAutoRepeatOn (3)    - manipulate keyboard settings and keyboard control structure
+XBell (3)            - manipulate keyboard settings and keyboard control structure
+XButtonEvent (3)     - KeyPress, KeyRelease, ButtonPress, ButtonRelease, and MotionNotify event structures
+XChangeGC (3)        - create or free graphics contexts and graphics context structure
+XChangeKeyboardControl (3) - manipulate keyboard settings and keyboard control structure
+XChangeKeyboardMapping (3) - manipulate keyboard encoding and keyboard encoding structure
+XChar2b (3)          - load or unload fonts and font metric structures
+XCharStruct (3)      - load or unload fonts and font metric structures
+XCirculateEvent (3)  - CirculateNotify event structure
+XCirculateRequestEvent (3) - CirculateRequest event structure
+XClassHint (3)       - allocate class hints structure and set or read a window's WM_CLASS property
+XClientMessageEvent (3) - ClientMessage event structure
+XcmsCIELab (3)       - Xcms color structure
+XcmsCIELuv (3)       - Xcms color structure
+XcmsCIEuvY (3)       - Xcms color structure
+XcmsCIExyY (3)       - Xcms color structure
+XcmsCIEXYZ (3)       - Xcms color structure
+XcmsColor (3)        - Xcms color structure
+XcmsPad (3)          - Xcms color structure
+XcmsRGB (3)          - Xcms color structure
+XcmsRGBi (3)         - Xcms color structure
+XcmsTekHVC (3)       - Xcms color structure
+XColor (3)           - create, copy, or destroy colormaps and color structure
+XColormapEvent (3)   - ColormapNotify event structure
+XConfigureEvent (3)  - ConfigureNotify event structure
+XConfigureRequestEvent (3) - ConfigureRequest event structure
+XConfigureWindow (3) - configure windows and window changes structure
+XCopyColormapAndFree (3) - create, copy, or destroy colormaps and color structure
+XCopyGC (3)          - create or free graphics contexts and graphics context structure
+XCreateColormap (3)  - create, copy, or destroy colormaps and color structure
+XCreateGC (3)        - create or free graphics contexts and graphics context structure
+XCreateSimpleWindow (3) - create windows and window attributes structure
+XCreateWindow (3)    - create windows and window attributes structure
+XCreateWindowEvent (3) - CreateNotify event structure
+XCrossingEvent (3)   - EnterNotify and LeaveNotify event structure
+XDefaultString (3)   - convert text lists and text property structures
+XDeleteModifiermapEntry (3) - manipulate keyboard encoding and keyboard encoding structure
+XDestroyWindowEvent (3) - DestroyNotify event structure
+XDisableAccessControl (3) - control host access and host control structure
+XDisplayKeycodes (3) - manipulate keyboard encoding and keyboard encoding structure
+XDisplayMotionBufferSize (3) - send events and pointer motion history structure
+XDrawArc (3)         - draw arcs and arc structure
+XDrawArcs (3)        - draw arcs and arc structure
+XDrawLine (3)        - draw lines, polygons, and line structure
+XDrawLines (3)       - draw lines, polygons, and line structure
+XDrawPoint (3)       - draw points and points structure
+XDrawPoints (3)      - draw points and points structure
+XDrawRectangle (3)   - draw rectangles and rectangles structure
+XDrawRectangles (3)  - draw rectangles and rectangles structure
+XDrawSegments (3)    - draw lines, polygons, and line structure
+XDrawText (3)        - draw polytext text and text drawing structures
+XDrawText16 (3)      - draw polytext text and text drawing structures
+XEnableAccessControl (3) - control host access and host control structure
+XErrorEvent (3)      - X error event structure
+XEvent (3)           - generic X event structures
+XExposeEvent (3)     - Expose event structure
+XExtentsOfFontSet (3) - obtain the maximum extents structure for a font set
+XFocusChangeEvent (3) - FocusIn and FocusOut event structure
+XFontProp (3)        - load or unload fonts and font metric structures
+XFontSetExtents (3)  - XFontSetExtents structure
+XFontStruct (3)      - load or unload fonts and font metric structures
+XFreeColormap (3)    - create, copy, or destroy colormaps and color structure
+XFreeFont (3)        - load or unload fonts and font metric structures
+XFreeGC (3)          - create or free graphics contexts and graphics context structure
+XFreeModifiermap (3) - manipulate keyboard encoding and keyboard encoding structure
+XFreeStringList (3)  - convert string lists and text property structure
+XGContextFromGC (3)  - create or free graphics contexts and graphics context structure
+XGCValues (3)        - create or free graphics contexts and graphics context structure
+XGetClassHint (3)    - allocate class hints structure and set or read a window's WM_CLASS property
+XGetFontProperty (3) - load or unload fonts and font metric structures
+XGetGCValues (3)     - create or free graphics contexts and graphics context structure
+XGetGeometry (3)     - get current window attribute or geometry and current window attributes structure
+XGetIconSizes (3)    - allocate icon size structure and set or read a window's WM_ICON_SIZES property
+XGetKeyboardControl (3) - manipulate keyboard settings and keyboard control structure
+XGetKeyboardMapping (3) - manipulate keyboard encoding and keyboard encoding structure
+XGetModifierMapping (3) - manipulate keyboard encoding and keyboard encoding structure
+XGetMotionEvents (3) - send events and pointer motion history structure
+XGetRGBColormaps (3) - allocate, set, or read a standard colormap structure
+XGetVisualInfo (3)   - obtain visual information and visual structure
+XGetWindowAttributes (3) - get current window attribute or geometry and current window attributes structure
+XGetWMHints (3)      - allocate window manager hints structure and set or read a window's WM_HINTS property
+XGetWMNormalHints (3) - allocate size hints structure and set or read a window's WM_NORMAL_HINTS property
+XGetWMSizeHints (3)  - allocate size hints structure and set or read a window's WM_NORMAL_HINTS property
+XGraphicsExposeEvent (3) - GraphicsExpose and NoExpose event structures
+XGravityEvent (3)    - GravityNotify event structure
+XHostAddress (3)     - control host access and host control structure
+XIconSize (3)        - allocate icon size structure and set or read a window's WM_ICON_SIZES property
+XInsertModifiermapEntry (3) - manipulate keyboard encoding and keyboard encoding structure
+XkbAddDeviceLedInfo (3) - Initialize an XkbDeviceLedInfoRec structure
+XkbAllocControls (3) - Allocates an XkbControlsRec structure in the XkbDescRec
+XkbAllocDeviceInfo (3) - Obtain an XkbDeviceInfoRec structure
+XkbAllocNames (3)    - Allocate symbolic names structures
+XkbCopyKeyType (3)   - Copy one XkbKeyTypeRec structures
+XkbCopyKeyTypes (3)  - Copy more than one XkbKeyTypeRec structure
+XkbFreeClientMap (3) - Free memory used by the client map member of an XkbDescRec structure
+XkbFreeComponentList (3) - Free the structure returned by XkbListComponents
+XkbFreeControls (3)  - Frees memory used by the ctrls member of an XkbDescRec structure
+XkbFreeDeviceInfo (3) - Free an XkbDeviceInfoRec structure
+XkbFreeIndicatorMaps (3) - Frees memory used by the indicators member of an XkbDescRec structure
+XkbFreeNames (3)     - Free symbolic names structures
+XkbFreeServerMap (3) - Free memory used by the server member of an XkbDescRec structure
+XkbGetMap (3)        - Allocate an XkbDescRec structure and populate it with the server's keyboard client map...
+XkbNoteControlsChanges (3) - Notes the changes in a changes structure when a client receives an XkbControlsNo...
+XkbNoteNameChanges (3) - Note the changed names in a changes structure
+XkbOutOfRangeGroupInfo (3) - Returns only the out-of-range processing information from the group_info field o...
+XkbOutOfRangeGroupNumber (3) - Returns the out-of-range group number, represented as a group index, from the ...
+XkbResizeDeviceButtonActions (3) - Allocate additional space for button actions in an XkbDeviceInfoRec structure
+XkbSetControls (3)   - Copies changes to the X server based on a modified ctrls structure in a local copy of ...
+XKeyboardControl (3) - manipulate keyboard settings and keyboard control structure
+XKeyEvent (3)        - KeyPress, KeyRelease, ButtonPress, ButtonRelease, and MotionNotify event structures
+XKeymapEvent (3)     - KeymapNotify event structure
+XListHosts (3)       - control host access and host control structure
+XLoadFont (3)        - load or unload fonts and font metric structures
+XLoadQueryFont (3)   - load or unload fonts and font metric structures
+XMapEvent (3)        - MapNotify and MappingNotify event structures
+XMappingEvent (3)    - MapNotify and MappingNotify event structures
+XMapRequestEvent (3) - MapRequest event structure
+XMatchVisualInfo (3) - obtain visual information and visual structure
+XmbTextListToTextProperty (3) - convert text lists and text property structures
+XmbTextPropertyToTextList (3) - convert text lists and text property structures
+XModifierKeymap (3)  - manipulate keyboard encoding and keyboard encoding structure
+XMotionEvent (3)     - KeyPress, KeyRelease, ButtonPress, ButtonRelease, and MotionNotify event structures
+XMoveResizeWindow (3) - configure windows and window changes structure
+XMoveWindow (3)      - configure windows and window changes structure
+XNewModifiermap (3)  - manipulate keyboard encoding and keyboard encoding structure
+XNoExposeEvent (3)   - GraphicsExpose and NoExpose event structures
+XpmCreateData (3)    - create an Data structure
+XpmCreateDataFromImage (3) - create an Data structure
+XpmCreateDataFromPixmap (3) - create an Data structure
+XpmCreateDataFromXpmImage (3) - create an Data structure
+XPoint (3)           - draw points and points structure
+XPropertyEvent (3)   - PropertyNotify event structure
+XQueryFont (3)       - load or unload fonts and font metric structures
+XQueryKeymap (3)     - manipulate keyboard settings and keyboard control structure
+XRectangle (3)       - draw rectangles and rectangles structure
+XRemoveHost (3)      - control host access and host control structure
+XRemoveHosts (3)     - control host access and host control structure
+XReparentEvent (3)   - ReparentNotify event structure
+XResizeRequestEvent (3) - ResizeRequest event structure
+XResizeWindow (3)    - configure windows and window changes structure
+XrmInitialize (3)    - initialize the Resource Manager, Resource Manager structures, and parse the command line
+XrmOptionDescRec (3) - initialize the Resource Manager, Resource Manager structures, and parse the command line
+XrmOptionKind (3)    - initialize the Resource Manager, Resource Manager structures, and parse the command line
+XrmParseCommand (3)  - initialize the Resource Manager, Resource Manager structures, and parse the command line
+XrmValue (3)         - initialize the Resource Manager, Resource Manager structures, and parse the command line
+XSegment (3)         - draw lines, polygons, and line structure
+XSelectionClearEvent (3) - SelectionClear event structure
+XSelectionEvent (3)  - SelectionNotify event structure
+XSelectionRequestEvent (3) - SelectionRequest event structure
+XSendEvent (3)       - send events and pointer motion history structure
+XSetAccessControl (3) - control host access and host control structure
+XSetClassHint (3)    - allocate class hints structure and set or read a window's WM_CLASS property
+XSetIconSizes (3)    - allocate icon size structure and set or read a window's WM_ICON_SIZES property
+XSetModifierMapping (3) - manipulate keyboard encoding and keyboard encoding structure
+XSetRGBColormaps (3) - allocate, set, or read a standard colormap structure
+XSetWindowAttributes (3) - create windows and window attributes structure
+XSetWindowBorderWidth (3) - configure windows and window changes structure
+XSetWMHints (3)      - allocate window manager hints structure and set or read a window's WM_HINTS property
+XSetWMNormalHints (3) - allocate size hints structure and set or read a window's WM_NORMAL_HINTS property
+XSetWMSizeHints (3)  - allocate size hints structure and set or read a window's WM_NORMAL_HINTS property
+XSizeHints (3)       - allocate size hints structure and set or read a window's WM_NORMAL_HINTS property
+XStandardColormap (3) - allocate, set, or read a standard colormap structure
+XStringListToTextProperty (3) - convert string lists and text property structure
+XTextItem (3)        - draw polytext text and text drawing structures
+XTextItem16 (3)      - draw polytext text and text drawing structures
+XTextProperty (3)    - convert string lists and text property structure
+XTextPropertyToStringList (3) - convert string lists and text property structure
+XTimeCoord (3)       - send events and pointer motion history structure
+XUnloadFont (3)      - load or unload fonts and font metric structures
+XUnmapEvent (3)      - UnmapNotify event structure
+Xutf8TextListToTextProperty (3) - convert text lists and text property structures
+Xutf8TextPropertyToTextList (3) - convert text lists and text property structures
+XVisibilityEvent (3) - VisibilityNotify event structure
+XVisualIDFromVisual (3) - obtain visual information and visual structure
+XVisualInfo (3)      - obtain visual information and visual structure
+XwcFreeStringList (3) - convert text lists and text property structures
+XwcTextListToTextProperty (3) - convert text lists and text property structures
+XwcTextPropertyToTextList (3) - convert text lists and text property structures
+XWindowAttributes (3) - get current window attribute or geometry and current window attributes structure
+XWindowChanges (3)   - configure windows and window changes structure
+XWMHints (3)         - allocate window manager hints structure and set or read a window's WM_HINTS property
+zip (5)              - zip archive structure
+zip_error_fini (3)   - clean up zip_error structure
+zip_error_init (3)   - initialize zip_error structure
+zip_error_init_with_code (3) - initialize zip_error structure
+zip_error_set (3)    - fill in zip_error structure
+zip_error_set_from_source (3) - fill in zip_error structure from source
+zip_file_attributes_init (3) - initialize zip file attributes structure
+zip_source (5)       - zip data source structure
+zip_stat_init (3)    - initialize zip_stat structure
+zipdetails (1perl)   - display the internal structure of zip files
