@@ -65,6 +65,7 @@ void lw(u_int32_t INS) {
   u_int8_t rd;
   u_int8_t rs1;
   u_int32_t offset;
+  u_int32_t addr;
 
   rd = GETBITS(INS, 7, 0x1F);
   rs1 = GETBITS(INS, 15, 0x1F);
@@ -72,7 +73,8 @@ void lw(u_int32_t INS) {
   if (GETBITS(offset, 11, 1) == 1) {
     offset |= 0xFFFFF000;
   }
-  R[rd] = *(u_int32_t *)(M + (R[rs1] + offset));
+  addr = R[rs1] + offset;
+  R[rd] = *(u_int32_t *)(M + addr);
   R[0] = 0;
 }
 
@@ -83,6 +85,7 @@ void lbu(u_int32_t INS) {
   u_int8_t rd;
   u_int8_t rs1;
   u_int32_t offset;
+  u_int32_t addr;
 
   rd = GETBITS(INS, 7, 0x1F);
   rs1 = GETBITS(INS, 15, 0x1F);
@@ -90,27 +93,30 @@ void lbu(u_int32_t INS) {
   if (GETBITS(offset, 11, 1) == 1) {
     offset |= 0xFFFFF000;
   }
-  R[rd] = *(M + (R[rs1] + offset));
+  addr = R[rs1] + offset;
+  R[rd] = *(M + addr);
   R[0] = 0;
 }
 // S type
 void sw(u_int32_t INS) {
   assert((GETBITS(INS, 0, 0x7F)) == 0x23);
   assert(GETBITS(INS, 12, 0x7) == 0x2);
-  u_int16_t offset;
+  u_int32_t offset;
   u_int8_t rs1;
   u_int8_t rs2;
-  u_int16_t highset; // offset high 7 bits
+  u_int32_t highset; // offset high 7 bits
+	u_int32_t addr;
 
   offset = GETBITS(INS, 7, 0x1F); // low 5 bits
   rs1 = GETBITS(INS, 15, 0x1F);
   rs2 = GETBITS(INS, 20, 0x1F);
-  highset = GETBITS(INS, 20, 0xFE); // mask 1111_1110_0000
+  highset = GETBITS(INS, 20, 0xFE0); // mask 1111_1110_0000
   offset |= highset;
   if (GETBITS(offset, 11, 1) == 1) {
     offset |= 0xFFFFF000;
   }
-  *(u_int32_t *)(M + R[rs1] + offset) = R[rs2];
+  addr = R[rs1] + offset;
+  *(u_int32_t *)(M + addr ) = R[rs2];
   R[0] = 0;
 }
 
@@ -118,20 +124,22 @@ void sw(u_int32_t INS) {
 void sb(u_int32_t INS) {
   assert((GETBITS(INS, 0, 0x7F)) == 0x23);
   assert(GETBITS(INS, 12, 0x7) == 0x0);
-  u_int16_t offset;
+  u_int32_t offset;
   u_int8_t rs1;
   u_int8_t rs2;
-  u_int16_t highset; // offset high 7 bits
+  u_int32_t highset; // offset high 7 bits
+	u_int32_t addr;
 
   offset = GETBITS(INS, 7, 0x1F); // low 5 bits
   rs1 = GETBITS(INS, 15, 0x1F);
   rs2 = GETBITS(INS, 20, 0x1F);
-  highset = GETBITS(INS, 20, 0xFE); // mask 1111_1110_0000
+  highset = GETBITS(INS, 20, 0xFE0); // mask 1111_1110_0000
   offset |= highset;
   if (GETBITS(offset, 11, 1) == 1) {
     offset |= 0xFFFFF000;
   }
-  *(M + R[rs1] + offset) = (R[rs2] & 0xFF);
+  addr = R[rs1] + offset;
+  *(M +  addr) = (R[rs2] & 0xFF);
   R[0] = 0;
 }
 // I type
@@ -180,8 +188,7 @@ int main(int argc, char *argv[]) {
     u_int32_t inst = *(u_int32_t *)(M + PC);
     u_int8_t opcode = GETBITS(inst, 0, 0x7F);
     u_int8_t func3 = GETBITS(inst, 12, 0x7);
-    printf("PC:\t0x%8x; inst_cnt : %d\n", PC, inst_cnt);
-    inst_cnt++;
+    printf("PC:\t0x%8x; \n instruct: 0x%8x\n", PC, inst);
     // printf("inst:\t0b%032b\n", inst);
     // printf("opcode:\t0b%07b\n", opcode);
     // printf("func3:\t0b%03b\n", func3);
@@ -222,6 +229,9 @@ int main(int argc, char *argv[]) {
     if (opcode != 0x67) {
       PC += 4;
     }
+		if (R[10] == 0) {
+			return 0;
+		}
   }
   return 0;
 }
