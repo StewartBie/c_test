@@ -1,4 +1,3 @@
-CXX = gcc
 TARGET = e10
 
 SRC = $(wildcard *.c)
