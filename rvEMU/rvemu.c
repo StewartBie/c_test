@@ -105,7 +105,7 @@ void sw(u_int32_t INS) {
   u_int8_t rs1;
   u_int8_t rs2;
   u_int32_t highset; // offset high 7 bits
-	u_int32_t addr;
+  u_int32_t addr;
 
   offset = GETBITS(INS, 7, 0x1F); // low 5 bits
   rs1 = GETBITS(INS, 15, 0x1F);
@@ -116,7 +116,7 @@ void sw(u_int32_t INS) {
     offset |= 0xFFFFF000;
   }
   addr = R[rs1] + offset;
-  *(u_int32_t *)(M + addr ) = R[rs2];
+  *(u_int32_t *)(M + addr) = R[rs2];
   R[0] = 0;
 }
 
@@ -128,7 +128,7 @@ void sb(u_int32_t INS) {
   u_int8_t rs1;
   u_int8_t rs2;
   u_int32_t highset; // offset high 7 bits
-	u_int32_t addr;
+  u_int32_t addr;
 
   offset = GETBITS(INS, 7, 0x1F); // low 5 bits
   rs1 = GETBITS(INS, 15, 0x1F);
@@ -139,7 +139,7 @@ void sb(u_int32_t INS) {
     offset |= 0xFFFFF000;
   }
   addr = R[rs1] + offset;
-  *(M +  addr) = (R[rs2] & 0xFF);
+  *(M + addr) = (R[rs2] & 0xFF);
   R[0] = 0;
 }
 // I type
@@ -162,6 +162,17 @@ void jalr(u_int32_t INS) {
   R[rd] = t;
   R[0] = 0;
 }
+// ebreak
+// here I didn't consider all cases
+void ebreak(u_int32_t INS) {
+  assert(GETBITS(INS, 7, 0x1F) == 0);
+  assert(GETBITS(INS, 12, 0xF) == 0);
+  if (R[0] == 0)
+    printf("Hit Good Trap\n");
+  else
+    printf("Hit Bad Trap\n");
+  exit(0);
+}
 
 int main(int argc, char *argv[]) {
 
@@ -175,13 +186,13 @@ int main(int argc, char *argv[]) {
   fseek(file, 0, SEEK_END);
   size_t filesize = ftell(file);
   rewind(file);
-  // M = calloc(1, filesize);
   assert(M != NULL);
   size_t read = fread(M, 1, filesize, file);
   if (read != filesize) {
     perror("File to read completely");
     return 1;
   }
+  *((u_int32_t *)(M + 0x224)) = 0x00000073;
 
   static int inst_cnt = 0;
   while (1) {
@@ -221,6 +232,9 @@ int main(int argc, char *argv[]) {
     case 0x67:
       jalr(inst);
       break;
+    case 0x73:
+      ebreak(inst);
+      break;
     default:
       printf("Unexpected opcode:0x%x\n", opcode);
       exit(1);
@@ -229,9 +243,9 @@ int main(int argc, char *argv[]) {
     if (opcode != 0x67) {
       PC += 4;
     }
-		if (R[10] == 0) {
-			return 0;
-		}
+    // if (R[10] == 0) {
+    // return 0;
+    //}
   }
   return 0;
 }
