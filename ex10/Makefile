@@ -4,7 +4,7 @@ SRC = $(wildcard *.c)
 OBJ = $(patsubst %.c, %.o,$(SRC))
 
 
-CXXFLAGS = -c -Wall
+CXXFLAGS = -c -g -Wall
 
 $(TARGET): $(OBJ)
 	$(CXX) -o $@ $^
