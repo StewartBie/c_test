@@ -1,0 +1,14 @@
+**/*
+.*
+*.md
+
+!e*/
+!**/**/*.c
+!**/**/*.h
+!**/**/*hex
+!**/**/*txt
+!**/Makefile
+!sEMU
+!rvEMU
+!rv*
+!.gitignore
