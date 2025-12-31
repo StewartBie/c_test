@@ -10,5 +10,6 @@
 !**/Makefile
 !sEMU
 !rvEMU
+!YEMU
 !rv*
 !.gitignore
